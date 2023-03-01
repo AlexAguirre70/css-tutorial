@@ -24,6 +24,10 @@ This works great, but when you have more than 1 page website, you will need to a
 <br/>
 
 ### External CSS
+This is a better solution to cascade changes throughout all the pages and their elements to keep the site cohesive. 
+<br/>
+To do this, create a folder called css and inside the folder create a file called styles.css. This file will hold all the css code for the website.
+<br/>
 
 <br/>
 <br/>
