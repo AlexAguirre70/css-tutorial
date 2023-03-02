@@ -73,12 +73,16 @@ Please note that any declaration within the id will be applied only to that elem
 <br/>
 
 ### Class Selectors
+If we want different elements to have the same styling we can add the class name attribute inside the element tag and then in CSS use the dot preceeding the name as the selector.
+<br/>
+
+* example: class="sectionbox" inside the element tag
+* example: .sectionbox { background-color: lightgrey;} in the css
 
 <br/>
 <br/>
 
-
-### Inheratence
-
+### Inheritence
+Inheritence basically means that any element tags inside another element tag will inherit the parent styling unless that element has it's own styling.
 <br/>
 <br/>
