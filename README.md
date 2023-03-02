@@ -97,4 +97,7 @@ In CSS the more specific the selector then that particular style will be applied
 
 <br/>
 <br/>
-To learn more about visit [CSS Specificty] (https://www.w3schools.com/css/css_specificity.asp) 
+To learn more about specificity visit:
+<br/>
+
+[CSS Specificty](https://www.w3schools.com/css/css_specificity.asp) 
