@@ -86,3 +86,15 @@ If we want different elements to have the same styling we can add the class name
 Inheritence basically means that any element tags inside another element tag will inherit the parent styling unless that element has it's own styling.
 <br/>
 <br/>
+
+### Specificty
+In CSS the more specific the selector then that particular style will be applied. The order of specificty is as follows:
+<br/>
+
+* ID - most specific
+* Class - next specific
+* Element - least specific
+
+<br/>
+<br/>
+To learn more about visit [CSS Specificty] (https://www.w3schools.com/css/css_specificity.asp) 
