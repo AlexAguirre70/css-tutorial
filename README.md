@@ -94,6 +94,7 @@ In CSS the more specific the selector then that particular style will be applied
 * ID - most specific
 * Class - next specific
 * Element - least specific
+* "*" - the universal selector is the least specific
 
 <br/>
 <br/>
