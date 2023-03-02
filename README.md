@@ -29,36 +29,56 @@ This is a better solution to cascade changes throughout all the pages and their 
 To do this, create a folder called css and inside the folder create a file called styles.css. This file will hold all the css code for the website.
 <br/>
 
+* example: link rel="stylesheet" href="./css/styles.css"
 <br/>
 <br/>
-
 
 ### Power Struggle
-
+There is a challenge when using all the external, internal and inline styling. 
+<br/>
+The first style is from the external sheet, that can be overwritten by internal styles for the properties that are being changed. The inline style overwrites the properties of both the External and Interal styling. 
+<br/>
+This is called the Last-Rule. What ever is last changed is the styling that takes place.
 <br/>
 <br/>
 
 ### Basic Syntax
-
+Syntax is composed of the selector, the opening and closing curly braces, and the property:value pairs.<br/>
+Altogher,these are called CSS rules
+* rule example: h1 { color: red;}
 <br/>
-<br/>
 
-### Element Selectors
-
+The h1 is the selector, and everything inside the curly braces are the declarations to apply to that element tag
+<br>
+We can target more than just tags, we can apply styling to classes, and ids
 <br/>
 <br/>
 
 ### Grouping Selectors
+We can group selectors that we want to have the same CSS rules by naming the selector adding a comma and then adding the next selector <br/>
+
+* example :  h1,p, #name (ID), .section (class)
 
 <br/>
 <br/>
 
 ### ID Selectors
+In order to target an element tag by its ID, we have to add an id="name" to the element inside our html code, and then use the hasthag with the name of the id we want to select and add css rules to.
 
+* example: #footer { color: orange}
+
+<br/>
+Please note that any declaration within the id will be applied only to that element tag with the unique id. 
 <br/>
 <br/>
 
 ### Class Selectors
+
+<br/>
+<br/>
+
+
+### Inheratence
 
 <br/>
 <br/>

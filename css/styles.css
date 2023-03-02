@@ -6,7 +6,20 @@ h3{
     color:cadetblue;
     font-size: 24px;
 }
-h4 {
+h4,p {
     color: blueviolet;
     font-size: 20px;
+    margin-left: 15px;
+}
+#footer {
+    color: #ff6c2c;
+    background-color: lightgrey;
+}
+.sectionbox {
+    background-color:antiquewhite;
+    color: white;
+    border-radius: 10px;
+    width: 300px;
+    padding: 20px;
+    margin: 15px;
 }
